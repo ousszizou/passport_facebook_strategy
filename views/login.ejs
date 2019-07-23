@@ -1,0 +1,32 @@
+<%- include('./partials/header.ejs'); -%>
+<%- include('./partials/navbar.ejs'); -%>
+<div class="stylingForm">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 leftSide">
+                <img class="resetImg" src="images/logging.svg" alt="login photo">
+            </div>
+            <div class="col-xs-12 col-sm-6 rightSide">
+                <h1>Login</h1>
+                <form>
+                    <div class="form-group has-feedback">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter your Email" name="email">
+                        <span class="glyphicon
+                        glyphicon-user form-control-feedback" aria-hidden="true"></span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your Password" name="password">
+                        <span class="glyphicon
+                        glyphicon-eye-close form-control-feedback" aria-hidden="true"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login<span class="glyphicon
+                        glyphicon-send" aria-hidden="true"></span></button>
+                    <a class="github-btn" href="/auth/facebook">login with facebook</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('./partials/footer.ejs'); -%>

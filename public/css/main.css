@@ -1,0 +1,93 @@
+body{
+    font-family: arial;
+    margin: 0;
+}
+nav{
+    background: #00bcd4;
+    padding: 20px 10px;
+}
+nav ul{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+nav a{
+    color: #fff;
+    font-size: 18px;
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+main, header{
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 10px;
+    color: #222;
+    text-align: center
+}
+
+/* register form */
+
+.stylingForm .container {
+    width: 60%;
+    margin: 50px auto;
+    box-shadow: 1px 1px 20px #ececec;
+    border-radius: 5px;
+    background: white;
+    padding: 30px
+}
+
+.stylingForm .container .leftSide > img {
+    width: 100%;
+    position: relative;
+    top: 110px;
+}
+
+.stylingForm .container .rightSide > h1 {
+    margin-bottom: 20px
+}
+
+.stylingForm .container .rightSide > form .form-group input {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid #313045;
+}
+
+.stylingForm .container .rightSide > form > button {
+    width: 100%;
+    margin: 25px 0;
+    background: #00bcd4;
+    border-color: #00bcd4
+}
+
+.stylingForm .container .rightSide > form > button > span {
+    margin: 0 4px
+}
+
+/* login form */
+
+.resetImg {
+    width: 100%;
+    position: relative;
+    top: 35px !important
+}
+
+form > a {
+  background: #2f2e41;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+form > a:hover {
+  text-decoration: none;
+  color: white
+}
